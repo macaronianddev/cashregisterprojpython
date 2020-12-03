@@ -1,4 +1,3 @@
-from variables import *
 intro = "Cash Register Python Project by Creighton Whitaker"
 print(intro)
 requestCost = "Please enter the total cost in cents"
@@ -11,9 +10,9 @@ y = int(input())
 print (y)
 z = x-y
 if z == 0:
-  print(noChange)
+  print("No change required")
 elif z>0:
-  print(z, needed)
+  print(z, "cents needed")
   print(z//10000, "hundred dollar bills")
   z = z%10000
   print(z//5000, "fifty dollar bills")
@@ -35,7 +34,7 @@ elif z>0:
   print(z//1, "pennies")
 elif z<0:
   a=abs(z)
-  print(a, owed)
+  print(a, "cents owed")
   print(a//10000, "hundred dollar bills")
   a = a%10000
   print(a//5000, "fifty dollar bills")
