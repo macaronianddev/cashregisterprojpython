@@ -1,3 +1,5 @@
 noChange = "No change required."
 owed = "cents owed"
+needed = "cents needed"noChange = "No change required."
+owed = "cents owed"
 needed = "cents needed"
